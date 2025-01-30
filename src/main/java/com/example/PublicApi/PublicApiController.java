@@ -1,6 +1,7 @@
 package com.example.PublicApi;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.Instant;
@@ -8,6 +9,7 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 @RestController
+@RequestMapping("/status")
 public class PublicApiController {
 
     @GetMapping("/api")
