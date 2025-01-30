@@ -64,5 +64,3 @@ The code is modular, and each component has been written with readability and ma
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-Notes:
