@@ -1,4 +1,5 @@
 FROM openjdk:17
-ADD ./PublicApi.jar PublicApi.jar
+WORKDIR /app
+COPY ./PublicApi-0.0.1-SNAPSHOT.jar /app/PublicApi.jar
 ENTRYPOINT ["java","-jar","PublicApi.jar"]
 LABEL authors="Noxxspring"

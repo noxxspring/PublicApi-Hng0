@@ -3,4 +3,4 @@ spring:
     name: PublicApi
 
 server:
-  port: ${PORT:8010}
+  port: 8010

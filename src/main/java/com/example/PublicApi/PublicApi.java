@@ -2,12 +2,12 @@ package com.example.PublicApi;
 
 public class PublicApi {
     private String email;
-    private String currentDateTime;
+    private String current_datetime;
     private String githubUrl;
 
-    public PublicApi(String email, String currentDateTime, String githubUrl){
+    public PublicApi(String email, String current_datetime, String githubUrl){
         this.email = email;
-        this.currentDateTime = currentDateTime;
+        this.current_datetime = current_datetime;
         this.githubUrl = githubUrl;
     }
 
@@ -15,8 +15,8 @@ public class PublicApi {
         return email;
     }
 
-    public String getCurrentDateTime() {
-        return currentDateTime;
+    public String getCurrent_datetime() {
+        return current_datetime;
     }
 
     public String getGithubUrl() {
@@ -27,8 +27,8 @@ public class PublicApi {
         this.email = email;
     }
 
-    public void setCurrentDateTime(String currentDateTime) {
-        this.currentDateTime = currentDateTime;
+    public void setCurrent_datetime(String current_datetime) {
+        this.current_datetime = current_datetime;
     }
 
     public void setGithubUrl(String githubUrl) {

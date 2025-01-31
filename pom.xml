@@ -50,6 +50,7 @@
 			</plugin>
 		</plugins>
 		<finalName>PublicApi</finalName>
+
 	</build>
 
 </project>
